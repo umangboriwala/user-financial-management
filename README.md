@@ -27,4 +27,9 @@ This application contains below modules:
     * api-gateway
     * budget-service
     * expense-service
-    
+      
+##  Email notification module
+To send an alert(notifications) to user when Expenses are more then Budget.
+I have migrated [mailtrap](https://mailtrap.io/) to our notification service. for demo purpose I am using free trial version of this. due to restriction of free trial I am able to send an email to the only person who has registered on mailtrap with email id. In my case I have configured `uboriwala@gmail.com` for demo purpose.
+<img width="598" alt="image" src="https://github.com/user-attachments/assets/4cbc4e4e-5fe8-4c28-9f60-4e23e61e042d">
+
