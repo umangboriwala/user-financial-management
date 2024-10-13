@@ -3,7 +3,7 @@ In this project we have created set of microservices which allows users to manag
 receiving alerts for budget exceedances.
 
 ## Getting Started
-Here I have used Eureka as a discovery server, OpenFeign for communication, spring-doc open API for swagger specification, starter-mail for sending notification emails.
+Here I have used Eureka as a discovery server, OpenFeign for communication, spring-doc open API for swagger specification, starter-mail for sending notification emails and H2 in memory database.
 
 ## Architecture
 This application contains below modules:
@@ -34,5 +34,15 @@ I have migrated [mailtrap](https://mailtrap.io/) to our notification service. fo
 
 below is the screenshot for reference:
 
-<img width="598" alt="image" src="https://github.com/user-attachments/assets/4cbc4e4e-5fe8-4c28-9f60-4e23e61e042d">
+<img width="732" alt="image" src="https://github.com/user-attachments/assets/7b200da3-0cf2-41f6-b973-db1ad611c1c4">
+
+## Swagger & h2-console
+Once application is up and running, you can access swagger-ui using below endpoints:
+
+- [swagger-ui for budget-service](http://localhost:8081/swagger-ui/index.html)
+- [swagger-ui for expense-service](http://localhost:8082/swagger-ui/index.html)
+
+H2-console:
+- [budget-service](http://localhost:8081/h2-console)
+- [expense-service](http://localhost:8082/h2-console)
 
